@@ -5,12 +5,15 @@
 
 Es una aplicación de Consola, desarrollada en el lenguaje C++.
 
-## Ejecutando el proyecto
+## Menú Principal
 Al iniciar imprime en pantalla un menú con dos secciones de opciones; las que supuestamente realiza un empleado del Banco y las que realiza un cliente de dicho Banco.
  El empleado del Banco puede:
- - Abastecer el Cajero: Al presionar la tecla `A`, se ejecuta el método ``
- - Ver la disponivilidad de billetes en el cajero
- - Realizar un depósito en la cuenta del cliente
+ - Abastecer el Cajero: Al presionar la tecla `A`, se ejecuta el método `FeedATM();`.
+ - Ver la disponivilidad de billetes en el cajero: Al presionar la tecla `B`, se ejecuta el método `StockATM();`.
+ - Realizar un depósito en la cuenta del cliente: Al presionar la tecla `C`, se ejecuta el método `FeedClient();`
  
  El cliente del Banco puede:
  - Extraer Efectivo del cajero
+
+## Analizando Opciones
+
