@@ -150,6 +150,7 @@ void DebitClient()
         else if (debit > clientMoney)
         {
             cout << "---SALDO de CUENTA INSUFICIENTE---" << endl;
+
         }
         else
         {
